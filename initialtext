@@ -1,1 +1,4 @@
 this is inital text, made on github's website, nothing in vscode yet.
+
+made a new branch (git checkout -b my-feature-branch), will edit this file (add lines 3/4), stage (git add .),
+commit (git commit -m "Add my first change"), and will push (git push origin my-feature-branch)
