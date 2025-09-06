@@ -2,3 +2,6 @@ this is inital text, made on github's website, nothing in vscode yet.
 
 made a new branch (git checkout -b my-feature-branch), will edit this file (add lines 3/4), stage (git add .),
 commit (git commit -m "Add my first change"), and will push (git push origin my-feature-branch)
+
+we've made a new branch "branchedits2", some random text is just git push origin main pushes changes
+from main branch (locally) to main branch (in remote repo) and git pull orign main pull most recent changes from main branch (in remote repo) to main branch (locally). Note that the former is discouraged, as we are directly pushing to main. Instead, after we clone the github repo locally, we should main a branch, then push that branch to remote repo (by git push origin newbranch). Remember, for git push X Y, we we're pushing from Y to X, but for git pull X Y, we're pulling from X onto Y.
